@@ -6,7 +6,7 @@
   "module": "es/index.js",
   "scripts": {
     "build": "gulp",
-    "install": "npm run build"
+    "postinstall": "npm run build"
   },
   "repository": {
     "type": "git",
