@@ -1,6 +1,5 @@
 {
   "name": "react-chessground",
-  "type": "module",
   "version": "1.5.0",
   "description": "React wrapper for chessground <https://github.com/ornicar/chessground>",
   "main": "index.js",
