@@ -6,7 +6,7 @@
   "module": "es/index.js",
   "scripts": {
     "build": "gulp",
-    "install": "if [ ! -f ./.installed ]; then touch ./.installed && npm i fi && npm run build"
+    "install": "[ ! -f ./.installed ] && { touch ./.installed; npm i; }; npm run build"
   },
   "repository": {
     "type": "git",
