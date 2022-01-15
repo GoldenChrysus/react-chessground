@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Chessground as NativeChessground } from 'chessground'
+import { Chessground as NativeChessground } from '@goldenchrysus/chessground'
 
 export default class Chessground extends React.Component {
 

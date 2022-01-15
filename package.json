@@ -1,16 +1,15 @@
 {
-  "name": "react-chessground",
-  "version": "1.5.0",
+  "name": "@goldenchrysus/react-chessground",
+  "version": "1.5.4",
   "description": "React wrapper for chessground <https://github.com/ornicar/chessground>",
   "main": "index.js",
   "module": "es/index.js",
   "scripts": {
-    "build": "gulp",
-    "install": "[ ! -f ./.installed ] && { touch ./.installed; npm i; }; echo 'OK'"
+    "build": "gulp"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ruilisi/react-chessground.git"
+    "url": "git+https://github.com/GoldenChrysus/react-chessground.git"
   },
   "keywords": [
     "chess",
@@ -19,15 +18,16 @@
     "react"
   ],
   "authors": [
-    "Ruilisi"
+    "Ruilisi",
+    "GoldenChrysus"
   ],
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/ruilisi/react-chessground/issues"
+    "url": "https://github.com/GoldenChrysus/react-chessground/issues"
   },
-  "homepage": "https://github.com/ruilisi/react-chessground",
+  "homepage": "https://github.com/GoldenChrysus/react-chessground",
   "dependencies": {
-    "chessground": "github:GoldenChrysus/chessground"
+    "@goldenchrysus/chessground": "^7.12.0"
   },
   "peerDependencies": {
     "prop-types": "^15.7.2",
